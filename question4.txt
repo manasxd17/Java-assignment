@@ -1,0 +1,7 @@
+1 - Here, We should use 'List' since they need to pickup a random number also we can shuffle the list after evey pick.
+
+2 - Here the requirement is to make a list of unique names for the products and since list can have duplicates values, 'SET' is the best option.
+
+3 - Here we should use 'MAP' which can have data in key-value pair where key will be the name and value will be the count of the employees with that name.
+
+4 - Here we should use 'QUEUE' since we need to add people to waiting list and remove.

@@ -1,35 +1,36 @@
-abstract class fruits {
+package Core_java;
+abstract class Fruits {
     abstract void plucked();
 }
 
-class Apple extends fruits {
+class Apple extends Fruits {
     void plucked() {
         System.out.println("Apple is plucked");
     }
     public static void main(String args[]) {
-        fruits p = new Apple();
+        Fruits p = new Apple();
         p.plucked();
     }
 }
 
 // Interface 
-interface flower {
+interface Flower {
     void plucked();
 }
-class Rose implements flower {
+class Rose implements Flower {
     public void plucked() {
         System.out.println("Rose plucked");
     }
 }
-class Sunflower implements flower {
+class Sunflower implements Flower {
     public void plucked() {
         System.out.println("Sunflower plucked");
     }
 }
 
-class question1 {
+class Question1 {
     public static void main(String args[]) {
-        flower rose = new Rose();
+        Flower rose = new Rose();
         rose.plucked();;
     }
 }

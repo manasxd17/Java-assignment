@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-public class question3 {
+public class Question3 {
 
     static void trimList(List<String> str) {
         for (ListIterator<String> main_list = str.listIterator(); main_list.hasNext(); ) {

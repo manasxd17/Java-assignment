@@ -1,4 +1,5 @@
-class find extends Thread {
+package Core_java;
+class Find extends Thread {
     public void run() {
         try {
             System.out.println("find started.");
@@ -9,7 +10,7 @@ class find extends Thread {
         System.out.println("find completed.");
     }
     public static void main(String args[]) {
-        find f = new find();
+        Find f = new Find();
         f.start();
     }
 }
@@ -32,9 +33,9 @@ class getData implements Runnable {
     }
 }
 
-public class question3 {
+public class Question3 {
     public static void main(String args[]) {
-        find f = new find();
+        Find f = new Find();
         getData pd = new getData();
         Thread threads = new Thread(pd);
         threads.setPriority(Thread.MIN_PRIORITY);

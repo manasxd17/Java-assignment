@@ -1,3 +1,4 @@
+package Core_java;
 class Bind {
 	
 	private String name;
@@ -31,7 +32,7 @@ class Bind {
 
 }
 
-public class question2 {
+public class Question2 {
 	public static void main(String[] args)
 	{
 		Bind e = new Bind();
